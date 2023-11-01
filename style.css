@@ -1,0 +1,46 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to right, #e8cbc0, #636fa4);
+}
+
+audio {
+    width: 200;
+    height: 100;
+}
+
+.header {
+    text-align: center;
+    margin: 0px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    color: antiquewhite;
+    font-size: 35px;
+    margin: 0;
+    padding: 12px;
+}
+
+.search {
+    text-align: center;
+}
+
+input[type=text] {
+    font-size: 30px;
+    border: none;
+    background: none;
+    outline: none;
+    padding: 5px;
+    color: chocolate;
+    border-bottom: 2px solid #636fa4;
+}
+
+.btn {
+    cursor: pointer;
+    border: none;
+    background: none;
+}
